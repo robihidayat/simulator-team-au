@@ -15,4 +15,14 @@ public class web {
         return  new JSONObject(payload);
     }
 
+    @RequestMapping(value = "/",method = RequestMethod.GET)
+    public JSONObject get(){
+
+        JSONObject obj = new JSONObject();
+
+        obj.put("Halo", "World");
+
+        return new JSONObject(obj);
+    }
+
 }
