@@ -1,0 +1,6 @@
+# ===============================
+# = Logging configurations
+# ===============================
+logging:
+  level:
+    org.springframework.web: INFO
